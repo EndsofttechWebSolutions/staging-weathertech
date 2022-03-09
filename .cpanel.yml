@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/grainman/public_html/
-    - /bin/cp -R /home/grainman/public_html/repository/ $DEPLOYPATH
+    - export DEPLOYPATH=/home/grainman/public_html/repository/
+    - /bin/cp -R . $DEPLOYPATH
