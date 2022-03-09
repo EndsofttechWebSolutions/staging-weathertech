@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/endsoft/public_html/
-    - /bin/cp -R /home/endsoft/public_html/weathertech.ph/staging/ $DEPLOYPATH
+    - export DEPLOYPATH=/home/grainman/public_html/
+    - /bin/cp -R /home/grainman/public_html/repository/ $DEPLOYPATH
