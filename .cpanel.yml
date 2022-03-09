@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/example/public_html/
-    - /bin/cp -R images $DEPLOYPATH
+    - export DEPLOYPATH=/home/endsoft/public_html/
+    - /bin/cp -R /home/endsoft/public_html/weathertech.ph/staging/ $DEPLOYPATH
