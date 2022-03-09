@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/grainman/public_html/repository/
+    - export DEPLOYPATH=/home/grainman/public_html/staging-weathertech/
     - /bin/cp -R . $DEPLOYPATH
